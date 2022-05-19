@@ -1,0 +1,50 @@
+
+body{
+  margin :0
+}
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  --color-primary: #f36;
+  --color-green : green;
+  background-color: #fff;
+}
+#volopay_Color{
+  color: var(--color-primary);
+}
+#volopay_Background-Color{
+  background-color: var(--color-primary);
+}
+#green_Background-Color{
+  background-color: var(--color-green);
+}
+.margin_0{
+  margin: 0!important;
+}
+#volopay_box_shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 6px;
+}
+#slidecaption {
+  -webkit-animation-name: spinner; 
+ -webkit-animation-timing-function: linear; 
+ -webkit-animation-iteration-count: infinite; 
+ -webkit-animation-duration: 2s; 
+ animation-name: spinner; 
+ animation-timing-function: linear; 
+ animation-iteration-count: infinite; 
+ animation-duration: 2s; 
+ -webkit-transform-style: preserve-3d; 
+ -moz-transform-style: preserve-3d; 
+ -ms-transform-style: preserve-3d; 
+ transform-style: preserve-3d;
+}
+.fontSize14{
+  font-size: 14px
+}
+.fontweight700{
+  font-weight: 700
+}
